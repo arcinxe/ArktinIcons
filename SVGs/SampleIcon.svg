@@ -17,7 +17,7 @@
    viewBox="0 0 1108 1108"
    height="1108"
    width="1108"
-   inkscape:export-filename="/home/arcin/Pictures/ArktinIcons/VectorIcons/SampleIcon.png"
+   inkscape:export-filename="/home/arcin/Pictures/ArktinIcons/VectorIcons/CircleMask.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -45,29 +45,29 @@
        gradientUnits="userSpaceOnUse" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath971">
+       id="clipPath1414">
       <rect
-         inkscape:export-ydpi="96"
+         inkscape:label="Shadow mask"
+         y="45.841648"
+         x="42"
+         height="1024"
+         width="1024"
+         id="rect1416"
+         style="display:inline;opacity:1;fill:#00bfa5;fill-opacity:1;stroke:none;stroke-width:148.17634583;stroke-opacity:1"
          inkscape:export-xdpi="96"
-         style="display:inline;opacity:1;fill:#00bfa5;fill-opacity:1;stroke:none;stroke-width:160.33143616;stroke-opacity:1"
-         id="rect973"
-         width="1108"
-         height="1108"
-         x="0"
-         y="3.84165"
-         inkscape:label="Shadow mask" />
+         inkscape:export-ydpi="96" />
     </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="494.48277"
-     inkscape:cy="227.72285"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-239.90123"
+     inkscape:cy="561.26228"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -133,7 +133,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -153,39 +153,39 @@
      id="layer1"
      transform="translate(0,-3.84165)"
      style="display:inline">
-    <rect
-       y="3.84165"
-       x="0"
-       height="1108"
-       width="1108"
-       id="rect94"
-       style="display:none;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:160.33143616;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:label="Square"
-       sodipodi:insensitive="true" />
     <path
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:160.33143616;stroke-opacity:1"
+       style="display:none;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:160.33143616;stroke-opacity:1"
        d="M 0,0 V 1108 H 1108 V 0 Z M 554,42 A 512,512 0 0 1 1066,554 512,512 0 0 1 554,1066 512,512 0 0 1 42,554 512,512 0 0 1 554,42 Z"
        id="rect80"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="translate(0,3.84165)"
-       inkscape:label="Circle mask" />
+       inkscape:label="Circle mask"
+       transform="translate(0,3.84165)" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;opacity:1;fill:#00bfa5;fill-opacity:1;stroke:none;stroke-width:160.33143616;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#00bfa5;fill-opacity:1;stroke:none;stroke-width:148.17634583;stroke-opacity:1"
        id="rect922"
-       width="1108"
-       height="1108"
-       x="0"
-       y="3.84165"
+       width="1024"
+       height="1024"
+       x="42"
+       y="45.841648"
        inkscape:label="Background"
        sodipodi:insensitive="true" />
+    <rect
+       y="45.841648"
+       x="42"
+       height="1024"
+       width="1024"
+       id="rect94"
+       style="display:none;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:148.17634583;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="Square"
+       sodipodi:insensitive="true" />
     <path
-       clip-path="url(#clipPath971)"
+       clip-path="url(#clipPath1414)"
        style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke-width:32.88499069"
        d="m 356.68945,265.87681 c -19.0566,-0.79522 -34.64239,11.8474 -45.10461,26.55892 -14.84258,18.63671 -30.90576,36.37205 -44.80806,55.7041 -12.66716,20.71173 -7.73752,45.49423 -8.74162,68.46435 0.0501,126.2026 -0.10032,252.40757 0.0753,378.60868 0.19939,21.04206 13.02248,38.56107 27.97351,52.09762 228.79221,228.75602 457.50335,457.40522 686.05323,685.98122 14.47464,17.6459 37.403,26.2484 59.8893,24.5149 151.8508,-0.057 303.7045,0.114 455.5534,-0.086 35.6974,-0.864 65.4288,-34.8266 62.3849,-70.2516 -0.043,-136.5162 0.087,-273.034 -0.065,-409.5488 0.2379,-20.4931 -12.7768,-36.8037 -25.5443,-51.3769 -18.4342,-21.632 -35.1922,-44.86104 -56.4199,-63.85622 C 1413.0082,907.22648 1357.5638,852.26925 1302.4585,796.93815 1129.6127,624.19186 956.77534,451.11371 783.6836,278.16016 c -12.97127,-12.90153 -31.83443,-12.73938 -48.81662,-12.28134 -126.05918,-6.7e-4 -252.11835,-0.001 -378.17753,-0.002 z"
        id="path928"
@@ -205,6 +205,9 @@
        cy="557.84167"
        r="512"
        inkscape:label="Circle silhouette"
-       inkscape:highlight-color="4278255615" />
+       inkscape:highlight-color="4278255615"
+       clip-path="none"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

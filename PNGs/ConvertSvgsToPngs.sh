@@ -1,33 +1,20 @@
 #!/usr/bin/env bash
-# options=("Circle" "Rounded square" "Squircle" "Teardrop" "Hexagon" "Pentagon")
-# select opt in "${options[@]}"
-# do
-#     case $opt in
-#         "Circle")
-#             echo "you chose choice 1"
-#             ;;
-#         "Rounded square")
-#             echo "you chose choice 2"
-#             ;;
-#         "Squircle")
-#             echo "you chose choice $REPLY which is $opt"
-#             ;;
-#         "Teardrop")
-#             break
-#             ;;
-#         *) echo "invalid option $REPLY";;
-#     esac
-# done
-# read shape
-# mkdir $shape
-# shape = "Circle"
-# path = "PNGs/${shape}"
-# mkdir "${path}"
-rm *.svg
-cp ../*.svg ./
-# for f in *.svg; do
-#      inkscape -z -e "${f%.svg}".temp.png -w 1108 -h 1108 "$f"
-#      gm composite -compose CopyOpacity IconMasks.png "${f%.svg}".temp.png "${f%.svg}".png
-#      rm "${f%.svg}".temp.png
-# done
 
+mkdir "Square"
+mkdir "RoundedSquare30px"
+mkdir "RoundedSquare200px"
+mkdir "Teardrop"
+shape="Circle"
+mkdir "${shape}"
+rm *.svg
+cp ../SVGs/*.svg ./
+for svgFile in *.svg; do
+     pngFile="${svgFile%.svg}.png"
+
+     inkscape -z -e "Square/${pngFile}" -w 1108 -h 1108 "${svgFile}"
+     gm composite -compose CopyOpacity ../Masks/CircleMask.png "Square/${pngFile}" "${shape}/${pngFile}"
+     gm composite -compose CopyOpacity ../Masks/TeardropMask.png "Square/${pngFile}" "Teardrop/${pngFile}"
+     gm composite -compose CopyOpacity ../Masks/RoundedSquare30pxMask.png "Square/${pngFile}" "RoundedSquare30px/${pngFile}"
+     gm composite -compose CopyOpacity ../Masks/RoundedSquare200pxMask.png "Square/${pngFile}" "RoundedSquare200px/${pngFile}"
+     rm "${svgFile}"
+done
